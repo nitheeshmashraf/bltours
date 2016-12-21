@@ -6,3 +6,16 @@
 	float: right;
 	text-align: right;
 }
+
+.hovvis{
+	display: none;
+}
+.hovvis:hover {
+display: block;
+}
+
+.ov:hover .hovvis{
+	
+	display: block;
+
+}
